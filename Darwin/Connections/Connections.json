@@ -1,0 +1,34 @@
+{
+  "cf47e74d-1426-4afb-8c69-59f3a462eed2": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1601/1.0.1601.3047/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/DarwinFelixSite": {
+        "dataSources": {
+          "Ordenes": {
+            "tableName": "23196957-edf0-4d7a-b4ac-0b337d5e562d"
+          },
+          "Productos": {
+            "tableName": "9e3718a3-cd61-4776-bda6-3b35b3040f35"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Productos",
+      "Ordenes"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "cf47e74d-1426-4afb-8c69-59f3a462eed2"
+  }
+}

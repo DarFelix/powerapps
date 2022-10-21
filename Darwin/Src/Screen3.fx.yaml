@@ -1,0 +1,37 @@
+Screen3 As screen:
+    Fill: =RGBA(99, 139, 44, 1)
+
+    Label41 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =147
+        Size: =35
+        Text: ="Bienvenido a mi APP"
+        Width: =517
+        X: =440
+        Y: =112
+        ZIndex: =1
+
+    Icon1 As icon.EmojiHappy:
+        Height: =184
+        Icon: =Icon.EmojiHappy
+        Width: =239
+        X: =539
+        Y: =259
+        ZIndex: =2
+
+    Button11 As button:
+        Fill: =RGBA(164, 179, 145, 1)
+        OnSelect: =Navigate(Screen1)
+        Text: ="Productos"
+        X: =412
+        Y: =564
+        ZIndex: =3
+
+    Button12 As button:
+        Fill: =RGBA(123, 181, 126, 1)
+        OnSelect: =Navigate(Screen2)
+        Text: ="Órdenes"
+        X: =745
+        Y: =564
+        ZIndex: =4
+
