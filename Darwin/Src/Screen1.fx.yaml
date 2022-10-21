@@ -86,7 +86,7 @@ Screen1 As screen:
             ZIndex: =5
 
         Subtitle2 As label:
-            Height: =37
+            Height: =43
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
